@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# #This script will generate a HOG image of all the images in a folder and then create a list of features based on the values of the generated HOG image. A matrix consisting of features in columns and images in rows will the be generated.  Each image will have 3780 features, a Princinpal component analysis based on the features values for the images will then be carried out and the first top 15 PC:s resperesenting the highest variation  will be used for clustering the cimages with K-means-clustering. The knee locator function on SSE vs cluster plot will be used for detemining how many cluster there are in the data. The images will then be annotated according to their clusters and presented in a PCA plot. The images will also be resorted according to their cluster annotation into new folders. 
-# 
-# #import required libraries
+# #This script/code will generate a HOG image of all the images in a folder. A matrix/dataframe consisting of the hog-features in columns and images in rows will then be generated. 
+#Each image will have 3780 features. A Princinpal component analysis based on the features values for the images will then be carried out and the top 15 PC:s resperesenting the highest variation will be used for clustering the images with a K-means clustering method. 
+#The knee locator function on SSE vs cluster values will be used for determining how many cluster there are in the data. The images will then be annotated according to their clusters and presented in a PCA plot. 
+#The images will also be resorted according to their cluster annotation into new folders.
 
 # In[1]:
 
