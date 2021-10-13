@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# #This script cluster images in a folder and creates a folder for each cluster in the folder were the images are. #Each image is then copied into its anotated cluster
-# #write: python "name of script" folder name
+# # This script cluster images in a folder and creates a folder for each cluster in the folder were the images are. 
+# # Each image is then copied into its folder accorrding to its annotated cluster
+# # write: python "name of script" folder name
 
 # In[ ]:
 
